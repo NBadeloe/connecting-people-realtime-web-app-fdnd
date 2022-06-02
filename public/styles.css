@@ -99,6 +99,10 @@ body:after {
 	outline: none;
 }
 
+.message-input.error{
+    border: 1px solid red;
+}
+
 button{
     width: 8em;
     border-radius: 50px;
