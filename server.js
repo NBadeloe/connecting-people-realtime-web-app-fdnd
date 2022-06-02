@@ -1,9 +1,10 @@
 const express = require("express");
 const app = express();
+const http = require("http").createServer(app);
 const port = 4242;
 
 
-app.use(express.static(path.resolve("public")));
+app.use(express.static("public"));
 
 // templating //
 app.set("view engine", "ejs");
@@ -15,5 +16,5 @@ app.get("/", (req, res) => {
 
 // Port //
 http.listen(process.env.PORT || 4242, () =>
-	console.log(`App avaialble on http://localhost:4242`)
+console.log(`App avaialble on http://localhost:4242`)
 )
