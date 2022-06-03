@@ -47,7 +47,6 @@ const addWelcomeMessage = (user, you) => {
 
     welcomeMessage.classList = 'welcome-message';
     welcomeMessage.innerHTML = `
-        <hr />
         <div class="welcome-message-text">
             ${avatar}
             ${message}

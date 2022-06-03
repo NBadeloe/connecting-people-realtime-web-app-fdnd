@@ -47,26 +47,24 @@ body:after {
 }
 
 .messaging-form {
-	/* position: fixed;
+	position: fixed;
 	left: 0;
 	bottom: 0;
 	padding: 25px 20px;
-	width: 100%;
 	box-sizing: border-box;
-	display: flex; */
-    display: flex;
-    justify-content: center;
-    gap: 1em;
-    padding-top: 14em;
+	display: flex;
+	padding-left: 27em;
 }
 
 .message-input {
-	/* position: relative;
+	/* /* position: relative;
 	width: 20em;
 	padding: 2px;
-	border-radius: 40px;
-	margin-right: 20px; */
-    width: 30em;
+	border-radius: 40px; */
+	margin-right: 20px; 
+	width: 30em;
+
+
 }
 
 .avatar {
@@ -105,7 +103,7 @@ body:after {
 
 button{
     width: 8em;
-    border-radius: 50px;
+    border-radius: 60px;
     border-style: none;
     background-color: var(--green);
     box-shadow: -6px 3px 2px var(--blue);
@@ -114,3 +112,89 @@ button{
 input::placeholder{
     color: var(--blue);
 }
+.messaging-form .message-input-field:focus {
+    background:#252535f0;
+}
+
+.join {
+    background: #5BCC8B;
+    border: 0;
+    color: #252535;
+    font-weight: bold;
+    padding: 5px 20px;
+    cursor: pointer;
+    box-shadow: 0px 5px 8px 0px #212121;
+}
+
+.welcome-message {
+    text-align: center;
+    color: #5BCC8B;
+    margin: 40px 0;
+}
+
+.welcome-message-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.welcome-message-text .avatar {
+    margin-right: 10px;
+}
+
+.welcome-message-text .user-name {
+    color: #E6BB46;
+    margin-right: 10px;
+}
+
+.feedback {
+    position: absolute;
+    top: -25px;
+    left: 25px;
+    color: #FFF;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.feedback i {
+    color: #E6BB46;
+}
+
+.message-entry {
+    max-width: 350px;
+    display: flex;
+}
+
+.message-entry .avatar {
+    margin-right: 20px;
+}
+
+.message-body {
+    color: #FFF;
+}
+
+.user-name {
+    color: #E6BB46;
+    font-weight: bold;
+}
+
+.message-entry-own {
+    max-width: initial;
+    flex-direction: row-reverse;
+}
+
+.message-entry-own .avatar {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.message-entry-own .message-body {
+    text-align: right;
+}
+
+.message-entry-own .user-name {
+    color: #5BCC8B;
+}
+
+
