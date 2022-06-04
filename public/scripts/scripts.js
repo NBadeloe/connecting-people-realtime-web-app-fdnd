@@ -54,6 +54,7 @@ const addWelcomeMessage = (user, you) => {
     `;
 
     dom.feed.appendChild(welcomeMessage);
+    
 };
 
 const enterChannel = () => {
