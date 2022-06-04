@@ -19,15 +19,18 @@ h1 {
     color: var(--purple);
  
 }
-body:after {
+main{
     content:"";
     background: linear-gradient(180deg, #050542 0%, #2E2270 18.23%, rgba(166, 117, 245, 0.13) 100%);
     border-radius: 22px;
-    position:absolute;
-    top:5%;
-    bottom:0;
-    right:8%;
-    left:8%;
+    display: flex;
+    margin: auto;
+    margin-top: 4em;
+    padding: 1em;
+    width: 80%;
+    height: 50%;
+    justify-self: center;
+    justify-content: center;
     z-index:-1;
 }
 
@@ -53,11 +56,11 @@ body:after {
 	padding: 25px 20px;
 	box-sizing: border-box;
 	display: flex;
-	padding-left: 27em;
+	padding-left: 42em;
 }
 
 .message-input {
-	/* /* position: relative;
+	/*  position: relative;
 	width: 20em;
 	padding: 2px;
 	border-radius: 40px; */
@@ -98,7 +101,12 @@ body:after {
 }
 
 .message-input.error{
-    border: 1px solid red;
+    border: 2px solid red;
+    box-shadow: -8px 5px 0px red;
+    border-radius: 11px;
+    outline: none;
+	z-index: 1;
+	box-sizing: border-box;
 }
 
 button{
@@ -130,6 +138,7 @@ input::placeholder{
     text-align: center;
     color: #5BCC8B;
     margin: 40px 0;
+    list-style-type: none;
 }
 
 .welcome-message-text {
@@ -197,4 +206,15 @@ input::placeholder{
     color: #5BCC8B;
 }
 
+hr{
+    display: none;
+}
 
+/* grid for post-its(messages)
+.feed{
+    display: grid;
+    grid-template-columns: 100px 50px 100px;
+    grid-template-rows: 80px auto 80px; 
+    column-gap: 10px;
+    row-gap: 15px;
+} */
