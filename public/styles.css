@@ -139,6 +139,19 @@ input::placeholder{
     color: #5BCC8B;
     margin: 40px 0;
     list-style-type: none;
+    
+}
+p{
+    text-decoration:none;
+    color:#000;
+    background:#ffc;
+    display:block;
+    height:10em;
+    width:10em;
+    padding:1em;
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    transform: rotate(-6deg);
+    transition: transform .15s linear;
 }
 
 .welcome-message-text {
@@ -146,6 +159,7 @@ input::placeholder{
     justify-content: center;
     align-items: center;
     font-size: 24px;
+    
 }
 
 .welcome-message-text .avatar {

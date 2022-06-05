@@ -61,7 +61,7 @@ const enterChannel = () => {
     const avatar = getAvatar();
     const name = dom.nameInput.value;
 
-    dom.joinButton.remove();
+    // dom.joinButton.remove();
     dom.welcomeMessage.remove();
 
     dom.nameInput.value = '';
