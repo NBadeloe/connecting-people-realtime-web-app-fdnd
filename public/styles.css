@@ -29,31 +29,29 @@ body {
 } */
 
 main {
-	margin: 0;
 	padding: 0;
 	min-height: 100vh;
 	min-width: 100vw;
 	display: flex;
+	flex: none;
 	justify-content: center;
 	align-items: center;
+    flex-direction: column;
 }
 
 .header {
 	display: flex;
+	flex: none;
+	justify-self: center;
 	justify-content: center;
 	align-items: center;
 	z-index: 1;
-	width: 23rem;
 	height: 7.5em;
-	margin-top: -40em;
-	margin-right: -23em;
-	border-radius: 2rem;
-	/* margin: 0 auto; */
+	border-radius: 2em;
+	margin: 0.5em auto 4em;
 	width: 50%;
-	/* border: 3px solid var(--purple); */
 	filter: drop-shadow(-7px 8px 0px #a675f5);
 	background-color: var(--blue);
-	border-radius: 29px;
 	padding: 20px;
 }
 
@@ -65,19 +63,9 @@ main {
 	z-index: 100;
 }
 
-section {
-	width: 23rem;
-	height: 30rem;
-	/* background: rgb(239, 238, 238); */
-	/* background:#F8F4F1  ; */
-	border-radius: 2rem;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	/* z-index: 99; */
-}
 
-section h1 {
+
+.post_it_container h1 {
 	margin: 0;
 	padding: 0;
 	padding-top: 1rem;
@@ -86,19 +74,20 @@ section h1 {
 	font-size: 1rem;
 }
 
-section ul {
+.post_it_container ul {
 	background: linear-gradient(
 		180deg,
 		#050542 0%,
 		#2e2270 18.23%,
-		rgba(166, 117, 245, 0.13) 100%
-	);
+		rgba(166, 117, 245, 0.13) 100%);
 	border-radius: 22px;
 	position: absolute;
 	top: 5%;
 	bottom: 0;
-	right: 8%;
-	left: 8%;
+	right: 5%;
+	left: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 ::-webkit-scrollbar {
@@ -119,9 +108,9 @@ section ul > li {
 }
 
 section form {
-	margin: 0 0 1rem 0;
-	padding: 20em;
-	padding-left: 8em;
+	margin: 1em;
+	padding: 38em;
+	bottom: 7%;
 	height: 2rem;
 	display: flex;
 	flex-direction: row;
@@ -147,7 +136,6 @@ section form input {
 	outline: none;
 	display: flex;
 	justify-content: center;
-	flex-direction: row;
 }
 
 section form > button {
@@ -183,3 +171,4 @@ section form > button:active {
 	padding-left: 1rem;
 	color: red;
 }
+
