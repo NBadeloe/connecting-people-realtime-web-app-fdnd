@@ -87,7 +87,8 @@ main {
 	right: 5%;
 	left: 5%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	overflow-y: scroll;
 }
 
 ::-webkit-scrollbar {
@@ -133,9 +134,14 @@ section form input {
 	color: #fff;
 	outline: none;
 	opacity: 80%;
+	margin-top: -20em;
 	outline: none;
 	display: flex;
 	justify-content: center;
+}
+
+section form input::placeholder{
+	color: var(--white);
 }
 
 section form > button {
@@ -150,6 +156,7 @@ section form > button {
 	transition: 0.2s;
 	padding: 1.2em;
 	z-index: 999;
+	margin-top: -20em;
 }
 
 section form > button span {
