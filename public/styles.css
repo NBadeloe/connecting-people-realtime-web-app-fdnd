@@ -86,9 +86,12 @@ main {
 	bottom: 0;
 	right: 5%;
 	left: 5%;
+	padding: 9.5em;
+	padding-left: 9em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	overflow-y: scroll;
+	gap: 1em;
 }
 
 ::-webkit-scrollbar {
