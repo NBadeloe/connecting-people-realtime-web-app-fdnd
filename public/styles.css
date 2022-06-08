@@ -75,11 +75,13 @@ main {
 }
 
 .post_it_container ul {
-	background: linear-gradient(
+	/* background: linear-gradient(
 		180deg,
 		#050542 0%,
 		#2e2270 18.23%,
-		rgba(166, 117, 245, 0.13) 100%);
+		rgba(166, 117, 245, 0.13) 100%); */
+		background-color:var(--blue) ;
+		border: 2px solid var(--green);
 	border-radius: 22px;
 	position: absolute;
 	top: 5%;
@@ -113,53 +115,55 @@ section ul > li {
 
 section form {
 	margin: 1em;
+	margin-left: -25em;
+	width: 70%;
 	padding: 38em;
-	bottom: 7%;
+	bottom: 4%;
 	height: 2rem;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	gap: 3em;
+	z-index: 1;
 }
 
-section form input {
-	margin: 0;
-	padding: 0 1rem;
-	border: none;
-	border-radius: 11px;
-	width: 30em;
-	box-sizing: border-box;
-	padding: 12px 12px 12px 42px;
-	border: 0;
-	background: var(--purple);
-	box-shadow: -8px 5px 0px #050542;
-	color: #fff;
-	outline: none;
+section form button {
+	width: 10em;
+	border-radius: 60px;
+	border: 2px solid var(--green);
+	color: var(--green);
+	background-color: var(--blue);
+	box-shadow: -6px 3px 2px var(--blue);
 	opacity: 80%;
-	margin-top: -20em;
-	outline: none;
-	display: flex;
-	justify-content: center;
+	transition: 0.2s;
+	
 }
+section form input {
+	width: 90%;
+	border-radius: 60px;
+	border: 2px solid var(--green );
+	background-color: var(--blue);
+	color: var(--white);
+	box-shadow: -6px 3px 2px var(--blue);
+	opacity: 80%;
+	outline: none;
+	transition: 0.2s;
+	
+}
+
 
 section form input::placeholder{
 	color: var(--white);
 }
 
-section form > button {
-	width: 10em;
-	border-radius: 60px;
-	border-style: none;
-	background-color: var(--green);
-	box-shadow: -6px 3px 2px var(--blue);
-	border: 0;
-	opacity: 80%;
-	outline: none;
-	transition: 0.2s;
+section form > button, input {
 	padding: 1.2em;
-	z-index: 999;
-	margin-top: -20em;
+	z-index: 1;
+	position: -webkit-sticky;
+	position: sticky;
+	bottom: 0em;
+	margin-bottom: 4em;
 }
 
 section form > button span {
