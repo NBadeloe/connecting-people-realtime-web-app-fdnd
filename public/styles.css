@@ -29,33 +29,24 @@ body {
 } */
 
 main {
-	padding: 0;
-	min-height: 100vh;
-	min-width: 100vw;
 	display: flex;
-	flex: none;
-	justify-content: center;
-	align-items: center;
+	align-content: space-between;
     flex-direction: column;
 }
 
-.header {
-	display: flex;
-	flex: none;
+header {
+	flex: 0;
 	justify-self: center;
 	justify-content: center;
 	align-items: center;
 	z-index: 1;
-	height: 7.5em;
 	border-radius: 2em;
-	margin: 0.5em auto 4em;
-	width: 50%;
 	filter: drop-shadow(-7px 8px 0px #a675f5);
 	background-color: var(--blue);
-	padding: 20px;
 }
 
-.header h1 {
+header h1 {
+	align-self: center;
 	font-size: 4.5em;
 	font-weight: bolder;
 	max-width: 10em;
@@ -63,35 +54,23 @@ main {
 	z-index: 100;
 }
 
-
-
-.post_it_container h1 {
+/* .posts h1 {
 	margin: 0;
 	padding: 0;
 	padding-top: 1rem;
 	font-weight: lighter;
 	text-transform: uppercase;
 	font-size: 1rem;
-}
-
-.post_it_container ul {
+} */
+.posts {
 	/* background: linear-gradient(
 		180deg,
 		#050542 0%,
 		#2e2270 18.23%,
 		rgba(166, 117, 245, 0.13) 100%); */
-		background-color:var(--blue) ;
-		border: 2px solid var(--green);
+	background-color:var(--blue) ;
+	border: 2px solid var(--green);
 	border-radius: 22px;
-	position: absolute;
-	top: 5%;
-	bottom: 0;
-	right: 5%;
-	left: 5%;
-	padding: 9.5em;
-	padding-left: 9em;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	overflow-y: scroll;
 	gap: 1em;
 }
@@ -113,23 +92,14 @@ section ul > li {
 	transition: transform 0.15s linear;
 }
 
-section form {
-	margin: 1em;
-	margin-left: -25em;
-	width: 70%;
-	padding: 38em;
-	bottom: 4%;
-	height: 2rem;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
+form {
 	gap: 3em;
 	z-index: 1;
 }
 
-section form button {
-	width: 10em;
+form button {
+	width: 10%;
+	height: 3em;
 	border-radius: 60px;
 	border: 2px solid var(--green);
 	color: var(--green);
@@ -139,8 +109,10 @@ section form button {
 	transition: 0.2s;
 	
 }
-section form input {
-	width: 90%;
+form input {
+	width: 60%;
+	height: 3em;
+	margin-top: auto;
 	border-radius: 60px;
 	border: 2px solid var(--green );
 	background-color: var(--blue);
@@ -153,20 +125,20 @@ section form input {
 }
 
 
-section form input::placeholder{
+ form input::placeholder{
 	color: var(--white);
 }
 
-section form > button, input {
+/* form > button, input {
 	padding: 1.2em;
 	z-index: 1;
 	position: -webkit-sticky;
 	position: sticky;
 	bottom: 0em;
 	margin-bottom: 4em;
-}
+} */
 
-section form > button span {
+form > button span {
 	display: none;
 }
 
@@ -177,11 +149,11 @@ section form > button span {
   position: relative;
 } */
 
-section form > button:hover {
+form > button:hover {
 	padding-left: 0.5em;
 }
 
-section form > button:active {
+form > button:active {
 	padding-left: 1rem;
 	color: red;
 }
