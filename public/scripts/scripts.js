@@ -6,9 +6,9 @@ let message = document.querySelector('li')
 var isDown = false;
 
 
-let userName= prompt(' What is your name')
-// appendMessage('You joined')
-socket.emit('new-user', userName)
+// let userName= prompt(' What is your name')
+// // appendMessage('You joined')
+// socket.emit('new-user', userName)
 
 form.addEventListener('submit', (e) =>{
   e.preventDefault()

@@ -18,10 +18,25 @@
         
       </section>
       <form>
+        <button class="help">
+          <a class="question-mark" href="#help-box"> ?</a>
+        </button>
         <input type="text" placeholder="Type a message for the post it...." autocomplete="off"> 
         <button>Post it!</button>
       </form>
   </main>
+  
+  <section id="help-box" class="overlay">
+    <div class="help-screen">
+      <h2>Dont worry i am here to help</h2>
+      <a class="close" href="#">&times;</a>
+      <p class="content">
+    Please type something in the input and hit the "Post it!" button <br>
+  <br>
+  Put the post it on another place by grabbing them and dropping them
+      </p>
+    </div>
+  </section>
   
   <script src="/socket.io/socket.io.js"></script>
   <script src="../scripts/scripts.js"></script>
