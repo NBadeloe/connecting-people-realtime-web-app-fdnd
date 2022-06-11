@@ -34,8 +34,9 @@ let row = -1;
 let column = 0
 
 function appendMessage(message) {
-  
+
   let messageElement = document.createElement('li')
+  messageElement.classList.add('postit')
   messageElement.innerText = message
   messageElement.addEventListener('mousedown', function(e) {
     isDown = true;
@@ -77,3 +78,5 @@ document.addEventListener('mousemove', function(event) {
   }
 }, true);
 
+// const postit = document.querySelector('.postit');
+// console.log(postit)
