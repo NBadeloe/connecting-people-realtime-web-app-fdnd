@@ -87,6 +87,7 @@ main {
 }
 section ul > li {
 	text-decoration: none;
+	font-style: italic;
 	color: #000;
 	background: #ffc;
 	display: block;
@@ -134,12 +135,13 @@ form input {
 }
 
  form > button {
+	font-weight: bold;
 	width: 10em;
 	border-radius: 60px;
 	border-style: none;
-	background-color: var(--green);
-	box-shadow: -6px 3px 2px var(--blue);
-	border: 0;
+	background-color: var(--purple);
+	border: 2px solid var(--blue);
+	
 	opacity: 80%;
 	outline: none;
 	transition: 0.2s;
@@ -147,9 +149,6 @@ form input {
 	margin-top: -20em;
 }
 
- form > button span {
-	display: none;
-}
 /* section form > button::after {
   content: 'SEND';
   margin-left: -3em;
@@ -157,11 +156,12 @@ form input {
   position: relative;
 } */
  form > button:hover {
-	background-color: #a675f5;
+   
+	cursor: pointer;
 }
  form > button:active {
 	padding-left: 1rem;
-	color: red;
+	color: var(--white);
 }
 
 h1 {
@@ -207,13 +207,14 @@ h1 {
 	height: 1em;
 	border-radius: 60px;
 	border-style: none;
-	background-color: var(--green);
+	background-color: var(--purple);
 	box-shadow: -6px 3px 2px var(--blue);
   }
   .question-mark{
     text-decoration: none;
 	font-size: 2.5em;
 	font-weight:bolder;
+	color: var(--blue);
   }
   .help:hover{
 	  padding-left: -1em;

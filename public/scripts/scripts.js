@@ -24,7 +24,7 @@ socket.on('chat-message', data =>{
 })
 
 socket.on('user-connected', (userName) => {
-  appendMessage(`${userName} has connected`)
+  // appendMessage(`${userName} has connected`)
 })
 
 let current = null
@@ -71,6 +71,7 @@ document.addEventListener('mousemove', function(event) {
           y : event.clientY
   
       };
+      console.log(offset);
       current.style.left = (mousePosition.x + offset[0]) + 'px';
       current.style.top  = (mousePosition.y + offset[1]) + 'px';
   }
