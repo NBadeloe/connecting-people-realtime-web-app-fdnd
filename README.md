@@ -15,15 +15,23 @@
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
+FDND post it wall oftewel FDN'Post it is een concept verzonnen door Nandita en Shauri waarin gebruikers samen post its kunnen plaatsen op een muur. Het idee hiervan is om brain stormsessies of methodes waar je post its gebruikt waaronder cart sorting makkelijk te maken door dit online te doen. Je kan de post it posten en slepen naar keuze. De functie om de post its te liken word nog aan gewerkt!. 
+
 
 ## 💡 Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+### ✨ EJS
 
+### 💎 Express
+
+### 💬 Socket.io
 
 
 ## 💻 Installatie
 
 ## ✔️ Gebruik
+
+Je begint door een gebruikersnaam in te voeren. Wanneer je dit gedaan hebt kan je gelijk beginnen met he posten van post its. Schrijf wat je wilt hebben op de post its doormiddel van dit in de input te zetten. Wanneer je klaar bent klik dan op de button met "post it" erop. Je zal dan zien dat er een post it geplaatst is op de muur. Niet tevreden over de plek van de post it? verplaats hem dan rustig door de post it slepen naar de plek waar je hem graag wilt hebben. 
 
 ## 📃 Bronnen
    
