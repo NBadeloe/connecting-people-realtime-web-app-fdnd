@@ -61,6 +61,22 @@ function appendMessage(message) {
   messageElement.style.left = ((13 * column) + 1) + 'em'
   column++
   messageContainer.append(messageElement)
+
+  let colors = [
+    "#66e5bf", "#a675f5", "#ffffff"]
+
+    function getRandomInt(max) {
+      return Math.floor(Math.random() * max);
+    }
+    // generate number between 0 and 2
+    
+    var numb = getRandomInt(3);
+    // expected output: 0, 1 or 2
+
+   var color = colors[numb];
+   // get color that matches key in array
+   messageElement.style.backgroundColor = color;
+
 }
 
 document.addEventListener('mousemove', function(event) {
