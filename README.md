@@ -24,8 +24,7 @@ Laatste versie
 
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 <!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
-FDND post it wall oftewel FDN'Post it is een concept verzonnen door Nandita en Shauri waarin gebruikers samen post its kunnen plaatsen op een muur. Het idee hiervan is om brain stormsessies of methodes waar je post its gebruikt waaronder cart sorting makkelijk te maken door dit online te doen. Je kan de post it posten en slepen naar keuze. De functie om de post its te liken word nog aan gewerkt!. 
+[FDND post it wall ](https://fdnpostit.herokuapp.com/) oftewel FDN'Post it is een concept verzonnen door Nandita en Shauri waarin gebruikers samen post its kunnen plaatsen op een muur. Het idee hiervan is om brain stormsessies of methodes waar je post its gebruikt waaronder cart sorting makkelijk te maken door dit online te doen. Je kan de post it posten en slepen naar keuze. De functie om de post its te liken word nog aan gewerkt!. 
 
 
 ## 💡 Kenmerken
