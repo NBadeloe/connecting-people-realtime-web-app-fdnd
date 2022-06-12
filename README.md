@@ -39,6 +39,12 @@ FDND post it wall oftewel FDN'Post it is een concept verzonnen door Nandita en S
 Je begint door een gebruikersnaam in te voeren. Wanneer je dit gedaan hebt kan je gelijk beginnen met he posten van post its. Schrijf wat je wilt hebben op de post its doormiddel van dit in de input te zetten. Wanneer je klaar bent klik dan op de button met "post it" erop. Je zal dan zien dat er een post it geplaatst is op de muur. Niet tevreden over de plek van de post it? verplaats hem dan rustig door de post it slepen naar de plek waar je hem graag wilt hebben. 
 
 ## 📃 Bronnen
+
+### Socket.io
+
+### Heroku
+
+### FDND styleguide
    
 ## Licentie
 
