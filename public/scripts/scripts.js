@@ -88,7 +88,6 @@ document.addEventListener('mousemove', function(event) {
           y : event.clientY
   
       };
-      console.log(offset);
       current.style.left = (mousePosition.x + offset[0]) + 'px';
       current.style.top  = (mousePosition.y + offset[1]) + 'px';
   }
