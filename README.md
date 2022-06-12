@@ -17,6 +17,11 @@ Een omgeving waar je post its kan gebruiken voor methodes zoals brainstormsessie
 Versie 1
 
 <img width="700" alt="Schermafbeelding 2022-06-11 om 18 03 46" src="https://user-images.githubusercontent.com/90189750/173195567-744e6f3b-5d86-4e79-89e1-1a87abff4256.png">
+
+Laatste versie
+
+<img width="700" alt="Schermafbeelding 2022-06-12 om 22 28 03" src="https://user-images.githubusercontent.com/90189750/173252377-c6811dc0-6d4c-4904-ae46-83bdb1e16053.png">
+
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
